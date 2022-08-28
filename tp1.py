@@ -1,9 +1,7 @@
-"""Si al dividirlo por los sucesivos  mcm y llegar al uno, solo lo factorice una vez, es un numero primo"""
-
-
-def main():
-    for num in range(1, 101):
-        if (numberIsPrime(num)):
+# comentario
+def main():# comentario
+    for num in range(1, 101):# comentario
+        if (numberIsPrime(num)):# comentario
             print(num)
 
 def numberIsPrime(num):
